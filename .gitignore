@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+*.pyc
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs & Temp
+*.log
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model files (extra - jo upload nahi karne)
+logistic_regression_model.pkl
+svm_model.pkl
+random_forest_model.pkl
+
+# Data files (extra - duplicate)
+student_performance_balanced.csv
+student_performance_balanced_unscaled.csv
+student_performance_clean.csv
+student_performance_dataset_10000.csv
+test_predictions_results.csv
+
+# Reports
+balance_report
+performance
